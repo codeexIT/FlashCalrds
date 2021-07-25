@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'cardCanvas.dart';
+import 'cardTable.dart';
 
 void main() {
   runApp(FlashCalrds());
@@ -22,7 +22,7 @@ class MainScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: SafeArea(
-        child: CardCanvas(),
+        child: CardTable(),
       )
     );
   }
